@@ -9,6 +9,7 @@ function preload() {
 //  img = loadImage('cat.jpg');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
   img = loadImage('https://dma-git.github.io/images/74.png');
+  img2 = loadImage('https://miles-stenhouse.github.io/diyps2021/picasso.jpg');
 }
 
 function setup() {
@@ -41,7 +42,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
   } else if (toolChoice == '2') { // second tool
 
     stroke(20);
-    rect(mouseX, mouseY, pmouseX, pmouseY);
+    ellipse(mouseX, mouseY, pmouseX, pmouseY);
      stroke(0, 0);
         fill(random(255), random(255), random(255), random(255));
   } else if (toolChoice == '3') { // third tool
@@ -81,6 +82,9 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     rect(mouseX, mouseY, 200, 150);
   } else if (toolChoice == 'g' || toolChoice == 'G') { // g places the image we pre-loaded
     image(img, mouseX, mouseY);
+    
+  }else if (toolChoice == 'j' || toolChoice == 'J') { // g places the image we pre-loaded
+    image(img2, mouseX, mouseY);
     
   }
  }
