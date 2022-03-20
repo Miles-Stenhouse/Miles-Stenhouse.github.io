@@ -85,6 +85,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     
   }else if (toolChoice == 'j' || toolChoice == 'J') { // g places the image we pre-loaded
     image(img2, mouseX, mouseY, pmouseX, pmouseY);
+   
     
   }
  }
