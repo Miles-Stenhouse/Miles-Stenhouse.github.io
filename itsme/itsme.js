@@ -51,5 +51,3 @@ fill(148, 99, 99);
 ellipse( 90, 500, 100, 100);
 ellipse( 510, 500, 100, 100);
 }
-
-<iframe src="https://docs.google.com/document/d/1rGgAPGyDjaNXa74aoLEDVWuMtljONWMhlvmwFgDyp7Y/edit?usp=sharing" height="200" width="300" title="The Code"></iframe>
