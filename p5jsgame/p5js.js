@@ -49,7 +49,7 @@ function levelOne(){
   }
   
   image(img1, ballx, bally, ballSize, ballSize);
-//  line(ballx, bally, mouseX, mouseY);
+ line(ballx, bally, mouseX, mouseY);
   
 } // end level one
 
